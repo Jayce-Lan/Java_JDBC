@@ -12,6 +12,8 @@ package com.learn_db.jdbc;
     Statement和PreparedStatement
         Statement：每次编译都会执行，效率较低
         PreparedStatement：只要值不变，编译一次可以执行多次，查询效率高
+
+        使用场景：如果需要做SQL语句拼接（例如真实需要加入SQL语句字段），那么还是需要使用Statement的
  */
 
 import java.sql.*;
